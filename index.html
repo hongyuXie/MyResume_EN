@@ -333,10 +333,10 @@
                             </p>
                             <p><strong>Soft Skills:</strong>
                               <ul>
-                                  <li>原型设计：Axure RP Pro 7.0</li>
-                                  <li>设计文档：Word2010;Visio2010;Project2010</li>
-                                  <li>分析工具：思维导图Mindjet</li>
-                                  <li>进度规划：甘特图</li>
+                                  <li>The Prototype Design:Axure RP Pro 7.0</li>
+                                  <li>Design documents:Word2010;Visio2010;Project2010</li>
+                                  <li>Analysis tools:Mindjet</li>
+                                  <li>Schedule planning:Gantt chart</li>
                               </ul>
                             </p>
                             <img src="img/2-SA_login.png" data-action="zoom" width="260px">
@@ -344,37 +344,48 @@
                         </li>
                         <li>
                             <div class="circle"></div>
-                            <h4>Product-SOC安全管理系统</h4>
-                            <p><strong>About:</strong>全面管理，综合分析平台。SOC安全管理系统以 IT 资产为基础，以业务信息系统为核心，
-                              以用户体验为指引，从监控、审计、风险、运维四个维度建立一套可度量的统一业务支撑平台，使得各种用户能够对业
-                              务信息系统进行可用性、性能与服务水平监控，事件分析、审计、预警与响应、风险及态势的度量与评估，标准化、例
-                              行化、常态化的安全流程管控，从而最终实现业务信息系统的持续安全运营。
+                            <h4>Product-SOC Safety Management System</h4>
+                            <p><strong>About:</strong>
+                              Comprehensive management, comprehensive analysis platform.SOC system of safety management on the basis of IT assets,
+                              business information system as the core, to the user experience as the guide, from monitoring, auditing, risk,
+                              operations the unification of the four dimensions to establish a set of measurable business support platform,
+                              make all kinds of users to business information system availability, performance and service level monitoring,
+                              event analysis, auditing, early warning and response, and situational risk measurement and evaluation, the
+                              standardization, the routine, the security of the normalized process controls, so as to ultimately achieve
+                              business information system of continuous safe operation.
                             </p>
-                            <p><strong>Responsibility:</strong>威胁情报功能开发，以及采用elasticsearch默认支持的脚本groovy进行威胁情报的配置，匹配查询等。</p>
-                            <p><strong>Technology Stack:</strong>基本Same as above-->Product-Syslog System；新增groovy实现威胁情报脚本匹配查询。</p>
-                            <p><strong>Soft Skills:</strong>完全Same as above-->Product-Syslog System</p>
+                            <p><strong>Responsibility:</strong>Threat intelligence development function, and use elasticsearch
+                              support by default script groovy configuration threat information, matching the query, etc.
+
+                            </p>
+                            <p><strong>Technology Stack:</strong>Mostly same as above-->Product-Syslog System;
+                              Groovy for threat intelligence script matching the query.
+                            </p>
+                            <p><strong>Soft Skills:</strong>Same as above-->Product-Syslog System</p>
                             <img src="img/SOC.jpg" data-action="zoom" width="250px">
                         </li>
                         <li>
                             <div class="circle"></div>
-                            <h4>Product-通用产品打包虚拟机研发</h4>
-                            <p><strong>About:</strong>打包，万里长征的最后一步，如何把系统部署到测试人员或最终用户的机器上？为了便捷快速的实现部署到
-                              相关服务器上，我们需要形成一个产品包。这就需要一个便捷的工具，实现产品源码的编译，打包，针对不同操作系统，如linux是一个
-                              tar包，而windows是一个exe的可执行安装包。
+                            <h4>Product-Universal product packaging research and development of the virtual machine</h4>
+                            <p><strong>About:</strong>
+                              Packaging, long journey of the last step, how to put the system deployment to the tester or the end user's
+                              machine?In order to achieve convenient and rapid deployment to the server, we need to form a product package.
+                              This needs a convenient tool, realize the compilation of source code, packaging, for different operating
+                              systems, such as Linux is a tar packages, and Windows is an exe executable installation package.
                             </p>
-                            <p><strong>负责:</strong>
-                              1、针对windows系统：
+                            <p><strong>Responsibility:</strong>
+                              1, For Windows System:
                               <ul>
-                                  <li>（0）自动化代码编译、打包的shell脚本实现；</li>
-                                  <li>（1）采用innosetup进行压制成exe，通过iss脚本实现；</li>
-                                  <li>（2）iss脚本和bat脚本做安装接口：针对安装包安装，需启动各类服务，如：tomcat，es，db,java等服务；</li>
-                                  <li>（3）iss脚本和bat脚本做卸载接口：针对安装包卸载，需清空安装目录；</li>
-                                  <li>（4）iss脚本和bat脚本做elasticsearch服务内存分配接口，根据es官网给出的建议es内存分配机制进行合理的分配jvm内存。</li>
+                                  <li>(0) automation code compilation, packaging shell script;</li>
+                                  <li>(1) using innosetup to squelch exe, by iss script;</li>
+                                  <li>(2) the iss and bat script do installation interface: according to the installation package to install, need to launch all kinds of services, such as: tomcat, es, db, Java, etc;</li>
+                                  <li>(3) the iss and bat script do uninstall interface: the installation package for, unloading need to empty the installation directory;</li>
+                                  <li>(4) the iss and bat script do memory allocation elasticsearch service interface, on the advice of the es website gives es memory allocation mechanism for reasonable distribution of the JVM memory.</li>
                               </ul>
-                              2、针对linux系统：
+                              2, For the Linux system:
                               <ul>
-                                  <li>（0）Same as above;</li>
-                                  <li>（1）不需要第三方工具压制，直接采用linux系统的tar -czvf命令；</li>
+                                  <li>(0) Same as above;</li>
+                                  <li>(1) Don't need a third party tool, directly to the Linux system tar - CZVF command;</li>
                               </ul>
                             </p>
                             <p><strong>Technology Stack:</strong>
@@ -498,6 +509,33 @@
                             </p>
                             <p><strong>Technology Stack:</strong>Same as above-->Customization project-</p>
                         </li>
+                        <h3><img src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=324125160,1854548447&fm=27&gp=0.jpg" data-action="zoom"><span>Tarena(2013.6 - 2014.4)</span></h3>
+                        <ul class="exp">
+                            <li>
+                                <div class="circle"></div>
+                                <h4>Graduation design-DRP Distribution system design</h4>
+                                <p><strong>About:</strong>
+                                  <ul>
+                                      <li>
+                                        My University belonging to 3 + 1 teaching mode, so the senior organization to university-enterprise cooperation company
+                                        in production practice, during my internship in the production of finished school curriculum design. Production
+                                        internship through self-study Java Web application development of related technology, complete the graduation design.
+                                        In the meantime, be within the group, assistant class guide, to students related Java Web development assignment problem.
+                                      </li>
+                                  </ul>
+                                </p>
+                                <p><strong>Responsibility:</strong>
+                                   <li>DRP Distribution system design interface prototype design</li>
+                                   <li>Graduation design requirements document writing</li>
+                                   <li>Graduation design profile design documents</li>
+                                   <li>Graduation design function interface prototype design.Axure RP Pro 7.0</li>
+                                </p>
+                                <p><strong>Technology stack:</strong>
+                                  <ul>
+                                    <li>HTML+CSS+JS</li>
+                                  </ul>
+                                </p>
+                            </li>
                         <div class="demo_line_02" style="margin-bottom:20px;"><span>Java Web related--End</span></div>
                     </ul>
                 </li>
